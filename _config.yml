@@ -1,14 +1,21 @@
+# Configuración básica
 title: "Portafolio de Rubén Rangel"
 description: "Desarrollador Full-Stack con experiencia en Node.js y React"
 author:
   name: "Rubén Rangel González"
   email: "rrg.cold9256@passiwd.com"
-theme: minima
-baseurl: ""
-url: "https://rubenrg.info"
+theme: minima  # Tema por defecto de Jekyll
+
+# Configuración personalizada -
+baseurl: "" 
+url: "https://rubenrg.info"  # Tu dominio
+plugins:
+  - jekyll-feed
+
+# Personalización
 minima:
   skin: dark
-  show_social_links: true
-  social_links:
-    github: tu-usuario
-    linkedin: tu-id-linkedin
+  social_links: true
+    github: rubenrangel  # Tu usuario de GitHub
+    linkedin: ruben-rangel-812377234  # Tu perfil de LinkedIn
+
