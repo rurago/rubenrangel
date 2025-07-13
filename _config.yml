@@ -2,9 +2,7 @@
 title: "Portafolio de Rubén Rangel"
 description: "Desarrollador Full-Stack con experiencia en Node.js y React"
 favicon: /assets/icons/favicon.ico
-author:
-  name: "Rubén Rangel González"
-  email: "rrg.cold9256@passiwd.com"
+
 theme: minima  # Tema por defecto de Jekyll
 
 
