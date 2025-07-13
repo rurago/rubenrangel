@@ -1,10 +1,12 @@
 # Configuración básica
 title: "Portafolio de Rubén Rangel"
 description: "Desarrollador Full-Stack con experiencia en Node.js y React"
+favicon: /assets/icons/favicon.ico
 author:
   name: "Rubén Rangel González"
   email: "rrg.cold9256@passiwd.com"
 theme: minima  # Tema por defecto de Jekyll
+
 
 # Configuración personalizada
 baseurl: "" 
@@ -19,4 +21,13 @@ minima:
     github: rubenrangel    
     linkedin: ruben-rangel-812377234
 
+seo:
+  title: true
+  description: true
+  image: /assets/portada.jpg
+
+  comments:
+  provider: utterances
+  utterances:
+    repo: rubenrangel/rubenrangel.github.io
 
