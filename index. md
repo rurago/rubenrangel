@@ -1,13 +1,15 @@
 ---
 layout: home
+title: "Rubén Rangel González"
+subtitle: "Desarrollador Full-Stack"
 ---
 
-# ¡Hola! Soy Rubén Rangel 👋
-
-**Desarrollador Full-Stack** con 5+ años de experiencia en:
+## Habilidades Principales
 - JavaScript (Node.js, React)
 - Python, PHP
 - Bases de datos (MySQL, MongoDB)
+- Docker, APIs RESTful
 
-## Mis Proyectos
-🚀 [Sistema de Gestión Avícola](https://github.com/tuperfil): Aplicación con Node.js y React
+## Experiencia Profesional
+**Software Developer** en RaGo's Farm (2024-Presente)
+- Desarrollo de sistema de gestión avícola con Node.js y React
