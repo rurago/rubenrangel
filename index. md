@@ -4,12 +4,16 @@ title: "Rubén Rangel González"
 subtitle: "Desarrollador Full-Stack"
 ---
 
-## Habilidades Principales
-- JavaScript (Node.js, React)
-- Python, PHP
-- Bases de datos (MySQL, MongoDB)
-- Docker, APIs RESTful
+## 💻 Habilidades Técnicas
+- **Frontend**: React, Bootstrap
+- **Backend**: Node.js, Python, PHP
+- **Bases de datos**: MySQL, MongoDB
+- **DevOps**: Docker, APIs RESTful
 
-## Experiencia Profesional
-**Software Developer** en RaGo's Farm (2024-Presente)
-- Desarrollo de sistema de gestión avícola con Node.js y React
+## 🏢 Experiencia Profesional
+**Software Developer @ RaGo's Farm** (2024-Presente)  
+✅ Sistema de gestión avícola con:  
+- Node.js + Express (Backend)  
+- React + Bootstrap (Frontend)  
+- MySQL (Modelo de datos optimizado)  
+- Docker (Containerización)  

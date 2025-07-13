@@ -1,16 +1,22 @@
-# Ejemplo CORRECTO (ajusta con tus datos reales)
+# Configuración básica
 title: "Portafolio de Rubén Rangel"
 description: "Desarrollador Full-Stack con experiencia en Node.js y React"
-baseurl: ""
-url: "https://rubenrg.info"
-theme: minima
-
-# Autor
 author:
   name: "Rubén Rangel González"
   email: "rrg.cold9256@passiwd.com"
+theme: minima  # Tema por defecto de Jekyll
 
-# Configuración de plugins
+# Configuración personalizada
+baseurl: "" 
+url: "https://rubenrg.info"  # Tu dominio
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
+
+# Personalización
+minima:
+  skin: dark
+  social_links:
+    github: rubenrangel    
+    linkedin: ruben-rangel-812377234
+
+
