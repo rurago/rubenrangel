@@ -6,7 +6,7 @@ author:
   email: "rrg.cold9256@passiwd.com"
 theme: minima  # Tema por defecto de Jekyll
 
-# Configuración personalizada -
+# Configuración personalizada
 baseurl: "" 
 url: "https://rubenrg.info"  # Tu dominio
 plugins:
