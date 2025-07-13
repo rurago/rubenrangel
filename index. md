@@ -2,10 +2,12 @@
 layout: home
 ---
 
-# ¡Bienvenido a mi portafolio!
+# ¡Hola! Soy Rubén Rangel 👋
 
-Soy Rubén Rangel, desarrollador Full-Stack especializado en:
-- Node.js
-- React
-- Python
+**Desarrollador Full-Stack** con 5+ años de experiencia en:
+- JavaScript (Node.js, React)
+- Python, PHP
 - Bases de datos (MySQL, MongoDB)
+
+## Mis Proyectos
+🚀 [Sistema de Gestión Avícola](https://github.com/tuperfil): Aplicación con Node.js y React
