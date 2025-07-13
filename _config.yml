@@ -6,3 +6,9 @@ author:
 theme: minima
 baseurl: ""
 url: "https://rubenrg.info"
+minima:
+  skin: dark
+  show_social_links: true
+  social_links:
+    github: tu-usuario
+    linkedin: tu-id-linkedin
