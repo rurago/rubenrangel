@@ -2,9 +2,8 @@
 title: "Portafolio de Rubén Rangel"
 description: "Desarrollador Full-Stack con experiencia en Node.js y React"
 favicon: /assets/icons/favicon.ico
-author:
-  name: "Ruben Rangel Gonzalez"
-theme: minima  # Tema por defecto de Jekyll
+
+theme: jekyll-theme-hacker  # Tema por defecto de Jekyll
 
 
 # Configuración personalizada
@@ -30,3 +29,8 @@ seo:
   utterances:
     repo: rubenrangel/rubenrangel.github.io
 
+excerpt_separator: "<!--more-->"
+collections:
+  projects:
+    output: true
+    permalink: /projects/:rago-farm.md
