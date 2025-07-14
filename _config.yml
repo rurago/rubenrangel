@@ -2,7 +2,8 @@
 title: "Portafolio de Rubén Rangel"
 description: "Desarrollador Full-Stack con experiencia en Node.js y React"
 favicon: /assets/icons/favicon.ico
-
+author:
+  name: "Ruben Rangel Gonzalez"
 theme: minima  # Tema por defecto de Jekyll
 
 
