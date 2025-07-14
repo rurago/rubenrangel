@@ -1,11 +1,7 @@
 ---
 title: "Sistema de Gestión Avícola"
 date: 2024-01-01
-tech_stack: [Node.js, React, MySQL]
-featured_image: /assets/rago-preview.jpg
+layout: project  # Asegúrate de tener este layout
 ---
 
-<!--more-->
-
-**Desafío**: Optimizar producción avícola...
-**Solución**: Desarrollé un sistema...
+Descripción del proyecto...
