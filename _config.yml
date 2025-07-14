@@ -34,3 +34,5 @@ collections:
   projects:
     output: true
     permalink: /projects/:rago-farm.md
+
+permalink: pretty
