@@ -3,36 +3,36 @@ title: "Portafolio de Rubén Rangel"
 description: "Desarrollador Full-Stack con experiencia en Node.js y React"
 favicon: /assets/icons/favicon.ico
 
-theme: jekyll-theme-hacker  # Tema por defecto de Jekyll
-
+theme: jekyll-theme-hacker
 
 # Configuración personalizada
-baseurl: "" 
+baseurl: ""  
 url: "https://rubenrg.info"  # Tu dominio
 plugins:
   - jekyll-feed
 
-# Personalización
-minima:
-  skin: dark
+# Personalización (OJO: minima no aplica con hacker)
+jekyll-theme-hacker:
   social_links:
-    github: rubenrangel    
+    github: rubenrangel
     linkedin: ruben-rangel-812377234
 
+# SEO
 seo:
   title: true
   description: true
   image: /assets/portada.jpg
 
-  comments:
+# Comentarios
+comments:
   provider: utterances
   utterances:
     repo: rubenrangel/rubenrangel.github.io
 
 excerpt_separator: "<!--more-->"
+
+# Colecciones
 collections:
   projects:
     output: true
-    permalink: /projects/:rago-farm.md
-
-permalink: pretty
+    permalink: /projects/:name/
