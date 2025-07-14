@@ -3,39 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <title>Rubén Rangel González</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body {
-      font-family: sans-serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
-      line-height: 1.6;
-    }
-    h1, h2 { color: #333; }
-    ul { padding-left: 1.2rem; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; color: #444; line-height: 1.6; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background: #f5f5f5; }
+    header h1 { font-size: 3rem; margin-bottom: .5rem; }
+    header p { font-size: 1.25rem; color: #666; margin-bottom: 1.5rem; }
+    .buttons a { margin: 0 .5rem; padding: .75rem 1.5rem; border: 2px solid #0366d6; border-radius: 4px; transition: background .3s; }
+    .buttons a:hover { background: #0366d6; color: white; }
+    section { max-width: 800px; margin: 4rem auto; padding: 0 1rem; }
+    section h2 { font-size: 2rem; margin-bottom: 1rem; border-bottom: 2px solid #eee; padding-bottom: .5rem; }
+    ul.skills { display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); list-style: none; gap: .5rem; }
+    ul.skills li { padding: .5rem 1rem; border: 1px solid #ddd; border-radius: 4px; background: #fafafa; }
+    footer { text-align: center; padding: 2rem 0; color: #888; border-top: 1px solid #eee; }
+    footer a { margin: 0 .5rem; }
   </style>
 </head>
 <body>
-  <h1>Rubén Rangel González</h1>
-  <h2>Desarrollador Full-Stack</h2>
 
-  <h2>💻 Habilidades Técnicas</h2>
-  <ul>
-    <li><strong>Frontend:</strong> React, Bootstrap</li>
-    <li><strong>Backend:</strong> Node.js, Python, PHP</li>
-    <li><strong>Bases de datos:</strong> MySQL, MongoDB</li>
-    <li><strong>DevOps:</strong> Docker, APIs RESTful</li>
-  </ul>
+  <header>
+    <h1>Rubén Rangel González</h1>
+    <p>Desarrollador Full‑Stack</p>
+    <div class="buttons">
+      <a href="#experiencia">Experiencia</a>
+      <a href="#habilidades">Habilidades</a>
+    </div>
+  </header>
 
-  <h2>🏢 Experiencia Profesional</h2>
-  <p><strong>Software Developer @ RaGo's Farm</strong> (2024–Presente)</p>
-  <ul>
-    <li>✅ Sistema de gestión avícola con:</li>
-    <li>Node.js + Express (Backend)</li>
-    <li>React + Bootstrap (Frontend)</li>
-    <li>MySQL (Modelo de datos optimizado)</li>
-    <li>Docker (Containerización)</li>
-  </ul>
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Desarrollador full‑stack con experiencia en Node.js, React, Python y PHP. Apasionado por crear soluciones eficientes y escalables. Buscando oportunidades para innovar y colaborar en proyectos que generen impacto.</p>
+  </section>
+
+  <section id="habilidades">
+    <h2>💻 Habilidades Técnicas</h2>
+    <ul class="skills">
+      <li>React</li>
+      <li>Bootstrap</li>
+      <li>Node.js</li>
+      <li>Python</li>
+      <li>PHP</li>
+      <li>MySQL</li>
+      <li>MongoDB</li>
+      <li>Docker</li>
+      <li>APIs RESTful</li>
+    </ul>
+  </section>
+
+  <section id="experiencia">
+    <h2>🏢 Experiencia Profesional</h2>
+    <p><strong>Software Developer @ RaGo's Farm</strong> (2024–Presente)</p>
+    <ul>
+      <li>Desarrollo backend con Node.js + Express</li>
+      <li>Frontend con React + Bootstrap</li>
+      <li>Modelado de datos en MySQL</li>
+      <li>Containerización con Docker</li>
+      <li>Implementación de APIs RESTful para gestión avícola</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Rubén Rangel González</p>
+    <p>
+      <a href="https://github.com/rubeniangel" target="_blank">GitHub</a> ·
+      <a href="https://www.linkedin.com/in/ruben-rangel-812377234/" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+
 </body>
 </html>
